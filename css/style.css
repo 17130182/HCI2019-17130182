@@ -1,6 +1,18 @@
-/* Phan menu bai tap */
+li a.active {
+  background-color: #D3D3D3;
+  color: #000000;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}/* Phan menu bai tap */
 div#menuexcersice{
-	padding: 20px 100px;
+  
+  line-height: 15px;
+  margin-top: 0px;
+	padding: 5px 0px;
+
 }
 /* Style the tab */
 .tab {
@@ -18,46 +30,83 @@ div#menuexcersice{
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: rgb(120, 120, 120);
+.tab button:hover:not(.active) {
+ /* background-color:#555 ;
+   color: white;*/
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgb(120, 208, 234);
+  background-color: #D3D3D3;
 }
+.tab button {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.tab button:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
 
 /* Style the tab content */
 .tabcontent {
   display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
   padding: 6px 12px;
   border: 1px solid #ccc;
-  margin: 18px 12px;
+  margin: 5px 5px;
   border-top: none;
-  background-color: rgb(240, 240, 240);
+  background-color: #ccc;
+  font-size: 13px;
 }
 
 /* Nút Download */
-a.download{
+/*a.download{
 	background-color: rgb(97, 185, 255);
   color: white;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}*/
+a.download {
+  box-shadow: 2px 5px 0px -2px #91b8b3;
+  background-color:#768d87;
+  border-radius:15px;
+  border:3px solid #566963;
+  display:inline-block;
+  cursor:pointer;
+  color:  #000000;
+  font-family:Arial;
+  font-size:16px;
+  padding:10px 15px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #000000;
+   text-align: center;
+  text-decoration: none;
 }
+a.download:hover {
+  background-color:#6c7c7c;
+}
+a.dowload:active {
+  position:relative;
+  top:1px;
+}
+
+
 
 /* Nội dung yêu cầu */
 div#Requiments{
 	font-family: Roboto;
 	text-align: left;
-	font-size: 20px;
-	color: rgb(25, 107, 255); 
-	margin: 20px 10px;
+	font-size: 14px;
+	color: #000000; 
+	margin: 10px 0px;
 }
 
 
@@ -65,9 +114,9 @@ div#Requiments{
 h4.design{
 	font-family: Roboto;
 	text-align: left;
-	font-size: 40px;
-	color: rgb(25, 107, 255); 
-	margin: 20px 10px;
+	font-size: 15px;
+	color: #000000; 
+	margin: 0px 0px;
 }
 
 
@@ -80,7 +129,7 @@ h4.design{
   background: #F1F1F1;
   color: #333;
 }#menu ul {
-  background: #1F568B;
+  background: #333333;
   list-style-type: none;
   overflow: hidden;
   width: 100%;
@@ -92,7 +141,8 @@ h4.design{
   line-height: 40px;
 }/*==Style cho menu===*/
 #menu ul {
-  background: #1F568B;
+  margin-left: 0px;
+  background: #000000;
   list-style-type: none;
   text-align: center;
 
