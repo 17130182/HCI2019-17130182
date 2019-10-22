@@ -3342,29 +3342,58 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem; }
-  .nav-link:hover, .nav-link:focus {
+
+  .nav-link:hover{
+    background-color: #ccc;
+    } .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #6c757d; }
+    color: #ccc; }
 
-.nav-tabs {
-  border-bottom: 1px solid #dee2e6; }
+  .nav-tabs {
+  font-size: 16px
+  border-bottom: 1px solid #dee2e6;
+  background-color: #dadada;
+   }
+
   .nav-tabs .nav-item {
+font-size: 16px
     margin-bottom: -1px; }
-  .nav-tabs .nav-link {
+
+
+  .nav-tabs .nav-link {                 /*color menu 3*/
+    color: #fff;
+    font-size: 16px
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+
+
+
+    .nav-tabs .nav-link:hover{
+          color: #000000;
+
+
+
+
+      } .nav-tabs .nav-link:focus {
+
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
-      color: #6c757d;
+      color: #000000;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-link.active{
+    color:#000000;
+
+  }
+  .nav-tabs .nav-link.hover{
+    color:#fff;
+  }
+
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ccc;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
@@ -3393,13 +3422,26 @@ input[type="button"].btn-block {
   flex-grow: 1;
   text-align: center; }
 
+
+
 .tab-content > .tab-pane {
-  display: none; }
+  background-color: #dadada;
+  display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  margin: 5px 5px;
+  background-color: #ccc;
+  font-size: 14px;
+  }
 
 .tab-content > .active {
+  background-color: #ccc;
   display: block; }
+  
+
 
 .navbar {
+  color:#fff;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
