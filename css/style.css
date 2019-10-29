@@ -4,7 +4,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #555555;
   color: white;
 }/* Phan menu bai tap */
 div#menuexcersice{
@@ -20,6 +20,8 @@ div#menuexcersice{
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #dadada;
+  /*border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;*/
 }
 
 /* Style the buttons inside the tab */
@@ -36,12 +38,17 @@ div#menuexcersice{
 
 /* Change background color of buttons on hover */
 .tab button:hover:not(.active) {
+border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
  /* background-color:#555 ;
    color: white;*/
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
+  border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+   text-decoration: underline;
   background-color: #D3D3D3;
   color: #000000;
 }
@@ -50,8 +57,10 @@ div#menuexcersice{
   color: #fff;
   display: block;
 }
+
 .tab button:hover {
-  background: #F1F1F1;
+   text-decoration: underline;
+  background: #555555;
   color: #333;
 }
 
@@ -128,11 +137,13 @@ h4.design{
   display: block;
 }
 #menu a:hover {
-  background: rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+  background: #555555;
   color: #333;
 
 }
 #menu ul li a.active{
+  text-decoration: underline;
   color: #000000;
 }
 
@@ -3365,12 +3376,14 @@ font-size: 16px
     color: #fff;
     font-size: 16px
     border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    /*border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;*/
+     }
 
 
 
     .nav-tabs .nav-link:hover{
+          text-decoration: underline; 
           color: #000000;
 
 
@@ -3384,10 +3397,12 @@ font-size: 16px
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active{
+    text-decoration: underline;
     color:#000000;
 
   }
   .nav-tabs .nav-link.hover{
+    text-decoration: underline;
     color:#fff;
   }
 
@@ -7612,6 +7627,7 @@ h1, h2, h3, h4, h5,
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
+
           color: #000000; }
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
