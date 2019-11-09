@@ -6,6 +6,7 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #555555;
   color: white;
+ 
 }/* Phan menu bai tap */
 div#menuexcersice{
   
@@ -165,6 +166,7 @@ h4.design{
   background: #dadada;
   list-style-type: none;
   text-align: center;
+  margin-bottom: 0px;
 
 
 
@@ -3346,7 +3348,10 @@ input[type="button"].btn-block {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-left: 0;
+  margin-top: 5px;
   margin-bottom: 0;
+  margin-left: 15px;
+  margin-right:15px;
   list-style: none; }
 
 .nav-link {
@@ -3378,12 +3383,16 @@ font-size: 16px
     /*border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;*/
      }
-
-
+	 
+    .nav-tabs.nav-link:hover:not(.active){
+          text-decoration: underline; 
+          color: #000000;
+	}
 
     .nav-tabs .nav-link:hover{
           text-decoration: underline; 
           color: #000000;
+		
 
 
 
@@ -3443,7 +3452,10 @@ font-size: 16px
   display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
   padding: 6px 12px;
   border: 1px solid #ccc;
-  margin: 5px 5px;
+  margin: 15px 15px;
+  margin-left:15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: #ccc;
   font-size: 14px;
   }
