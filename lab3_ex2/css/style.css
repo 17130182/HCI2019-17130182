@@ -83,6 +83,9 @@ float:left;
 	background: lightGray;
 
 }
+#menu_top #menu a:hover{
+	background: lightGray;
+}
 #banner img{
 	height: auto;
 	width: 1000px; 
