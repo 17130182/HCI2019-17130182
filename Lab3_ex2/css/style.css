@@ -81,7 +81,9 @@ float:left;
 }
 #menu_top #menu ul li a.active{
 	background: lightGray;
-
+}
+#menu_top #menu a:hover{
+	background: lightGray;
 }
 #banner img{
 	height: auto;
