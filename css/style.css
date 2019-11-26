@@ -69,10 +69,12 @@ border-top-left-radius: 0.25rem;
 .tabcontent {
   display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   margin: 5px 5px;
   border-top: none;
-  background-color: #ccc;
+  /*background-color: #ccc;*/
+  background-color: #FFF;
+
   font-size: 13px;
 }
 
@@ -3451,17 +3453,18 @@ font-size: 16px
   background-color: #dadada;
   display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   margin: 15px 15px;
   margin-left:15px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #ccc;
+  background-color: #FFF;
   font-size: 14px;
   }
 
 .tab-content > .active {
-  background-color: #ccc;
+ /* background-color: #ccc;*/
+ background-color: #FFF;
   display: block; }
   
 
